@@ -24,22 +24,22 @@ curl http://faker.hook.io?property=name.findName&locale=de
 ## Usage
 
 ### Browser
-
+```html
     <script src = "faker.js" type = "text/javascript"></script>
     <script>
       var randomName = faker.name.findName(); // Caitlyn Kerluke
       var randomEmail = faker.internet.email(); // Rusty@arne.info
       var randomCard = faker.helpers.createCard(); // random contact card containing many properties
     </script>
-
+```
 ### Node.js
-
+```js
     var faker = require('faker');
 
     var randomName = faker.name.findName(); // Rowan Nikolaus
     var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
     var randomCard = faker.helpers.createCard(); // random contact card containing many properties
-
+```
 ## API
 
 
@@ -129,6 +129,11 @@ See: https://github.com/pateketrueke/json-schema-faker/
 
 Run faker generators from Command Line.
 See: https://github.com/lestoni/faker-cli
+
+### Mocker data generator
+
+Minimal JSON data generator, fakerJs is one of the providers.
+See:  https://github.com/danibram/mocker-data-generator
 
 **Want to see your project added here? Let us know!**
 
